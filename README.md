@@ -1,10 +1,9 @@
-Batch size should equal to number of block sizes -> try 10 layers with batch size 10
 
-## Setup (Ubuntu 22.04) 
+# Setup (Ubuntu 22.04) 
 
-### 1. Clone repository
+## 1. Clone repository
 
-### 2. Set up git lfs (not necessary atm)
+## 2. Set up git lfs (not necessary atm)
 1. [Git lfs](https://git-lfs.com/)
 
     ```
@@ -19,7 +18,7 @@ Batch size should equal to number of block sizes -> try 10 layers with batch siz
     git lfs install
     ```
 
-### 3. Install dependencies
+## 3. Install dependencies
 1. Install from Pipfile:
 
     ```
@@ -31,11 +30,11 @@ Batch size should equal to number of block sizes -> try 10 layers with batch siz
     pipenv shell
     ```
 
-### 4. Set up config.ini
-#### 1. Copy config.ini.example to config.ini
-#### 2. Fill in the required fields
+## 4. Set up config.ini
+1. Copy config.ini.example to config.ini
+2. Fill in the required fields
 
-## Train
+# Train
 
 ```
 python -m lstm.train
