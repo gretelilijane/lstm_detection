@@ -31,8 +31,8 @@ Batch size should equal to number of block sizes -> try 10 layers with batch siz
     pipenv shell
     ```
 
-### 4. Set up config.yml
-#### 1. Copy config.yml.example to config.yml
+### 4. Set up config.ini
+#### 1. Copy config.ini.example to config.ini
 #### 2. Fill in the required fields
 
 ## Train
@@ -43,5 +43,5 @@ python -m lstm.train
 
 # TODO:
 1. Try bidirectional training
-2. Change input shape of convLSTM network
+2. Change input shape of convLSTM network (needs more resources)
 4. Set-up multilayer ConvLSTM
